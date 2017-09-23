@@ -72,5 +72,5 @@ const myFunc4 = function (num1, num2) {
 };
 //A function that takes three inputs and returns the first truethy value
 const firstTruethy = function (arg1, arg2, arg3) {
-	return arg1 || arg2 || arg3;
+	return arg1 || arg2 || arg3 || "There are no truethy values";
 };
